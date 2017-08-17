@@ -1,2 +1,1 @@
-# DnSIY-Light-Table
-A free and open source DIY Scalable Light Table
+# [PT-BR ver.](README.pt-br.md)

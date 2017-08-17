@@ -1,0 +1,6 @@
+- [x] Projeto e Teste (100%)
+- [ ] README (60%)
+- [ ] Doc Mesa pronta (0%)
+- [ ] Doc DnSIY (70%)
+- [ ] Imagens (0%)
+- [ ] Vetores e 3D (80%)
