@@ -1,8 +1,11 @@
-# Representação das variáveis
+# Variáveis
 
+_Este documento é uma referência para os demais._
 Neste documento você pode encontrar o significado de cada variável:
 
-`z = significado de z na geometria`
+```
+z = significado de z na geometria
+```
 
 ```
 #Variáveis globais
@@ -32,4 +35,14 @@ i = profundidade da base
 
 j = largura do acrílico
 k = profundidade do acrílico
+```
+
+```
+#Variáveis de Área
+
+AF = área da chapa frontal
+AL = área da chapa lateral
+AT = área da chapa traseira
+AB = área da chapa base
+A = área total
 ```
