@@ -1,6 +1,7 @@
 # Variáveis
 
 _Este documento é uma referência para os demais._
+
 Neste documento você pode encontrar o significado de cada variável:
 
 ```
