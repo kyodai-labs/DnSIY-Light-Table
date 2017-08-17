@@ -22,7 +22,7 @@ Esta documentação foi desenvolvida a partir do ponto de vista ponto de vista d
 
 ## DnSIY Light Table
 
-Para nos acompanhar no processo de desenvolvimento da nossa própria mesa de luz siga [este tutorial](), e lembre-se que você pode adaptar cada uma das medidas à sua necessidade.
+Para nos acompanhar no processo de desenvolvimento da nossa própria mesa de luz siga [este tutorial](DnSIYLightTable.pt-br.md), e lembre-se que você pode adaptar cada uma das medidas à sua necessidade.
 
 O exemplo do tutorial foi o projeto que ~~deu luz~~ à [Light Table Pronta]()
 
@@ -30,7 +30,7 @@ O exemplo do tutorial foi o projeto que ~~deu luz~~ à [Light Table Pronta]()
 
 Caso você não tenha interesse em passar por todos os desafios do desenvolvimento de uma mesa de luz e quiser ir direto para a construção, você pode adquirir todos os arquivos prontos na pasta [CAD](). A mesa pronta possui 440x390x129.5mm, e uma área de desenho de 420x374.9mm, o suficiente para desenhar em uma folha A3.
 
-Siga [este tutorial](DnSIYLightTable.pt-br.md) para produzir sua mesa.
+Siga [este tutorial]() para produzir sua mesa.
 
 ## Software
 
