@@ -1,0 +1,168 @@
+/* consolas note
+
+	font-family: Consolas, monaco, monospace;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+
+*/
+
+body{
+    left: 0;
+    top: 0;
+    background-color: #646464;
+}
+
+#content{
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*BOX*/
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+#box{
+    width: 560px;
+    margin: 25% auto 0;
+    box-shadow: 2px 2px 15px;
+    animation: fadein 2s forwards;
+    opacity: 0;
+    transform: translate(0%, -50%);
+}
+
+/*HEADER*/
+#header{
+    height: 50px;
+    line-height: 50px;
+    background-color: #416CD0;
+}
+
+#header p{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 20px;
+    vertical-align: middle;
+
+    font-family: Arial,"Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+#header img{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: -25px;
+    margin-left: 160px;
+    vertical-align: middle;
+
+    background-color: #004c98;
+}
+
+#header img:hover{
+    background-color: #FFFFFF;
+    transition: 1s;
+}
+
+/*VARS*/
+
+#vars{
+    height: 300px;
+    margin-top: -16px;
+    background-color: #343434;
+
+    
+	font-family: Consolas, monaco, monospace;
+	font-weight: 600;
+	line-height: 5px;
+}
+#vars p{
+    color: #FFFFFF;
+}
+
+#vars a{
+    color: #4f80f0;
+}
+#vars a:hover{
+    color: #7da4fc;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.inst:first-child{
+    padding-top: 20px;
+}
+.inst{
+    padding-left: 20px;
+}
+
+#lbls{
+    width: 490px;
+    margin: 0 auto;
+}
+.label{
+    display: inline-block;
+    padding-left: 20px;
+}
+.btn{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+/*CONSOLE*/
+
+#cnsl{
+    display: none;
+    margin-top: -16px;
+    background-color: #343434;
+
+    
+	font-family: Consolas, monaco, monospace;
+	font-weight: 600;
+}
+
+#cnsl p{
+    color: #FFFFFF;
+}
+
+
+/*FOOTER*/
+
+#footer{
+    margin-top: -16px;
+    height: 25px;
+    line-height: 23px;
+    background-color: #2d2d2d;
+}
+
+#footer p{
+    margin-left: 440px;
+    vertical-align: middle;
+	font-family: Consolas, monaco, monospace;
+	font-weight: 600;
+}
+
+#footer a{
+    color: #4f80f0;
+}
+#footer a:hover{
+    color: #FFFFFF;
+    transition: 1s;
+}
