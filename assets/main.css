@@ -129,7 +129,7 @@ a{
 /*CONSOLE*/
 
 #cnsl{
-    display: none;
+    /*display: none; #ADAPT AFTER JS IMPLEMENTATION*/
     margin-top: -16px;
     background-color: #343434;
 
