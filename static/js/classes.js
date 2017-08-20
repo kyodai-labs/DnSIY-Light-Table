@@ -26,7 +26,8 @@ function Formatter(str) {
 
 Formatter.prototype.mapper = function(mapping) {
     return function(_, name) {
-        return mapping[name];
+        var v = Math.round(mapping[name] * 100).toString();
+        return v === "0" ? "0.00" : v.slice(0, -2) + '.' + v.slice(-2);
     };
 };
 
