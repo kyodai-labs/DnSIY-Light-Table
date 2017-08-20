@@ -150,7 +150,7 @@ j = 440 - 2 * (20 - 10)
 j = 420
 
 k = profundidade do acrílico
-k = x + g
+k = x + (g * 2)
 k = 354.99 + (10 * 2)
 k = 374.99
 ```
