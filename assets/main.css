@@ -37,8 +37,19 @@ a{
     }
     
 }
+@keyframes fadeout {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+    
+}
 
 #box{
+    background-color: #343434;
     width: 560px;
     margin: 7% auto 0;
     box-shadow: 2px 2px 15px;
@@ -127,10 +138,11 @@ a{
 .btn input{
     padding: 5px 20px;
 
-
     border: 1px solid #7da4fc;
     color: #FFFFFF;
     background-color: #004c98;
+    
+    cursor: pointer;
 }
 .btn input:hover{
     background-color: #003060;
@@ -140,22 +152,29 @@ a{
 /*CONSOLE*/
 
 #cnsl{
-    /*display: none; #ADAPT AFTER JS IMPLEMENTATION*/
+    display: none;
     margin-top: -16px;
     background-color: #343434;
 
     
 	font-family: Consolas, monaco, monospace;
     font-weight: 600;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
 }
 
 #cnsl p{
     color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
+#cnsl textarea{
+    max-width: 470px;
+    width:470px;
+    max-height: 300px;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
 
 /*FOOTER*/
 
