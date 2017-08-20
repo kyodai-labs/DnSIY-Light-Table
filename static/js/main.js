@@ -22,7 +22,7 @@ button.onclick = function(e) {
 
     scrChange();
 
-    "\nCalculating..."
+    "\nCalculating...".console();
 
     vars.b = vars.l + 2 * (vars.s + vars.e);
     "b = l + 2 * (s + e) = {b}".format(vars).console();
