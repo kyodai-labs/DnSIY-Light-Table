@@ -40,11 +40,10 @@ a{
 
 #box{
     width: 560px;
-    margin: 25% auto 0;
+    margin: 7% auto 0;
     box-shadow: 2px 2px 15px;
     animation: fadein 2s forwards;
     opacity: 0;
-    transform: translate(0%, -50%);
 }
 
 /*HEADER*/
@@ -125,6 +124,18 @@ a{
     display: inline-block;
     padding-left: 50px;
 }
+.btn input{
+    padding: 5px 20px;
+
+
+    border: 1px solid #7da4fc;
+    color: #FFFFFF;
+    background-color: #004c98;
+}
+.btn input:hover{
+    background-color: #003060;
+    transition: 0.5s;
+}
 
 /*CONSOLE*/
 
@@ -135,7 +146,10 @@ a{
 
     
 	font-family: Consolas, monaco, monospace;
-	font-weight: 600;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #cnsl p{
