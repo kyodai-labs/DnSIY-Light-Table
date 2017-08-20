@@ -16,6 +16,7 @@ button.onclick = function(e) {
     });
 
     console.log(variables);
+    scrChange();
 };
 
 })();
