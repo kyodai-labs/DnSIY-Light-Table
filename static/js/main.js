@@ -1,6 +1,8 @@
 (function() {
 
 var button = document.getElementById('do-calc');
+var returnButton = document.getElementById('return-calc');
+
 
 button.onclick = function(e) {
     "".console(true);
@@ -47,6 +49,10 @@ button.onclick = function(e) {
 
     vars.k = vars.x + 2 * vars.g;
     "k = x + 2g = {k}".format(vars).console();
+};
+
+returnButton.onclick = function(e){
+    scrReturn();
 };
 
 })();
