@@ -24,7 +24,7 @@ s = tamanho do soquete
 #Variáveis - Chapa lateral
 
 α = ângulo de inclinação de descanso
-x = face do acrílico
+x = face adjacente à α
 y = lado oposto à α
 
 #Variáveis - Chapa base
