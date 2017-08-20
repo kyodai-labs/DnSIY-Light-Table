@@ -96,7 +96,7 @@ Com estas variáveis já conseguimos definir a largura do nosso projeto.
 ```
 b = l + 2 * (s + e)
 b = 300 + 2 * (15 + 20)
-b = 440
+b = 370
 ```
 A largura do nosso projeto é de 440mm, o que corresponde aproximadamente ao tamanho de um teclado.
 
@@ -136,8 +136,8 @@ x = 354.99
 
 h = largura da base
 h = b - (2 * e)
-h = 440 - (2 * 20)
-h = 400
+h = 370 - (2 * 20)
+h = 330
 
 i = profunfidade da base
 i = c - (2 * e)
@@ -146,8 +146,8 @@ i = 310
 
 j = largura do acrílico
 j = b - 2 * (e - g)
-j = 440 - 2 * (20 - 10)
-j = 420
+j = 370 - 2 * (20 - 10)
+j = 350
 
 k = profundidade do acrílico
 k = x + (g * 2)
@@ -160,15 +160,15 @@ k = 374.99
 
 ```
 a = 70
-b = 440
+b = 370
 c = 350
 d = 129,5
 e = 20
 f = 5
 g = 10
-h = 400
+h = 330
 i = 310
-j = 420
+j = 350
 k = 374.99
 l = 300
 x = 354.99
